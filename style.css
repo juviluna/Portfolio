@@ -112,6 +112,39 @@ label.logo {
     width: 400px;
 }
 
+.about {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: var(--dark);   
+}
+
+.page-title {
+    justify-content: flex-end;
+    text-transform: uppercase;
+    color: var(--light);
+    font-size: larger;
+    padding-inline-start: 79%;
+    padding-top: 2%;
+    cursor: pointer;
+    position: fixed;
+}
+
+.teal {
+    color: var(--primary);
+}
+
+.about p {
+    margin: 20px auto;
+    font-weight: 75;
+    line-height: 150%;
+    padding-inline-start: 15%;
+    padding-inline-end: 15%;
+}
+
+
 @media (max-width: 768px) {
     .navbar {
         /* flex-direction: block; */
@@ -146,6 +179,13 @@ label.logo {
 
     .resume-width {
         width: 375px;
+    }
+
+    .about p {
+        font-size: medium;
+        padding-top: 25%;
+        padding-left: 7%;
+        padding-right: 7%;
     }
 
 }
@@ -192,5 +232,17 @@ label.logo {
 
     .resume-width {
         width: 350px;
+    }
+
+    .page-title {
+        font-size: smaller;
+        padding-inline-start: 40%;
+    }
+
+    .about p {
+        font-size: smaller;
+        padding-top: 43%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
