@@ -23,7 +23,7 @@
     background-size: cover;
 }
 
-nav {
+.navi {
     position: fixed;
     top: 0;
     left: 0;
@@ -180,6 +180,10 @@ label.logo {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .navbar-links ul li::after {
+        bottom: -7px;
     }
 
     .resume {
